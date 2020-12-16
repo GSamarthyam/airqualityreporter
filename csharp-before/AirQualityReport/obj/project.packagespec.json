@@ -1,0 +1,58 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/ganesh/Desktop/exercise/AirQualityReport/AirQualityReport/AirQualityReport.csproj",
+    "projectName": "AirQualityReport",
+    "projectPath": "/Users/ganesh/Desktop/exercise/AirQualityReport/AirQualityReport/AirQualityReport.csproj",
+    "outputPath": "/Users/ganesh/Desktop/exercise/AirQualityReport/AirQualityReport/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Aspose.Cells": {
+          "target": "Package",
+          "version": "[19.5.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "System.Configuration.ConfigurationManager": {
+          "target": "Package",
+          "version": "[4.6.0-preview5.19224.8, )"
+        },
+        "iTextSharp": {
+          "target": "Package",
+          "version": "[5.5.13, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
